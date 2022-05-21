@@ -1,0 +1,75 @@
+# Hi there👋! Here goes below my assignment information
+
+<div align="center"><a href="########">devHuß@Droppe-xmas</a></div>
+<h1 align="center">Pre-assignment</h1>
+<h1 align="center">Table of Content</h1>
+
+<p>Title</p>
+<p>Description</p>
+<p>User stories</p>
+<p>Technologies</p>
+<p>Instruction</p>
+<P>Prerequisites</p>
+<p>References</p>
+<p>License</p>
+
+<h2 align="center">xmas online platform</h2>
+
+<h3 align="left">Description: </h3>
+
+<p>The app is created to submit as pre-assignment. The implementation strives to be simple. The application is composed of the following features:</p>
+
+<h3 align="left">User stories: </h3>
+<ul>
+<li>Pull 5 carts from the API—one per child, it should be visible which cart is which childs’
+</li>
+<li>The user can interact with these carts in an intuitive way to manage spending and other possible aspects that are important for decision making
+</li>
+<li>The user should get a discount if there are identical products on different childrens carts and the user approves these wishes
+</li>
+<li align="center">2 identical products chosen => 20% reduction for the sum of those two items</li>
+<li align="center">3 identical products chosen => 30% reduction … and so on—these reduction rules are to be saved and handled on the client, the API doesn’t support this
+</li>
+<li>When the user has made the final choices of approving certain products, these choices should be pushed to the API. Save both approved and discarded carts per child to the API
+</li>
+<li>The user should see a final confirmation screen with an easy overview of the new data saved on the API—aggregated approved cart with possible relating savings as well as an aggregate disregarded cart overview
+</li>
+<li align="center">Keep in mind the different criteria for optimisation depending on user personas
+</li>
+</ul>
+<h3 align="left">Technologies:</h3>
+<ul>
+<li>Visual Studio Code</li>
+<li>React</li>
+<li>React-dom</li>
+<li>React-hook</li>
+<li>React-router-dom</li>
+<li>@fortawesome/react-fontawesome</li>
+<li>@fortawesome/free-brands-svg-icons</li>
+<li>axios</li>
+<li>sass</li>
+<li></li>
+</ul>
+
+<h3 align="left">Instruction:</h3>
+
+<p>#npm start: Runs the app in the development mode. Open http://localhost:3000 to view it in the browser</p>
+<p>#npm test: Launches the test runner in the interactive watch mode</p>
+<p>#npm run build: Builds the app for production to the #build folder</p>
+
+<h3 align="left"> Prerequisites:</h3>
+<ul>
+<li>Node: 16.13.2</li>
+<li>NPM: 8.1.2</li>
+<li></li
+</ul>
+<h3 align="left">References:</h3>
+<ul>
+<li><a href="https://fullstackopen.com/en/">Deep Dive into Modern Web Development</a></li>
+<li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
+<li><a href="https://unsplash.com/">Unsplash</a></li>
+<li><a href=" https://fakestoreapi.com/">Fake Production API</a></li>
+</ul>
+
+<h3 align="left">LICENSE:</h3>
+<p>[MIT License](LICENSE)</p>
