@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faFacebook, faTwitter, faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 import './App.css';
-
+import logo from './logo.png';
 
 export default function SocialFollow() {
   return (
@@ -27,6 +27,9 @@ export default function SocialFollow() {
       <a href="https://www.skype.com/en/" className="skype social">
           <FontAwesomeIcon icon={faSkype} size="2x" />
       </a>
+      <div className="power-text"><p>Powered by koushik@devHuß</p>
+        <div><img src={logo} className="App-logo" alt="logo" /></div>
+      </div>
     </div>
   );
 }

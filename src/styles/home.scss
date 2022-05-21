@@ -1,0 +1,19 @@
+.homeTitle {
+  margin-top: 50px;
+  h2 {
+    color: #f78ea4;
+  }
+}
+
+.wishlistCards {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+@media (max-width: 600px) {
+  .wishlistCards {
+    align-content: center;
+    justify-content: center;
+  }
+}
