@@ -43,17 +43,18 @@
 <li>React</li>
 <li>React-dom</li>
 <li>React-hook</li>
-<li>React-router-dom</li>
+<li>React-router-dom(for page navigation)</li>
 <li>@fortawesome/react-fontawesome</li>
 <li>@fortawesome/free-brands-svg-icons</li>
-<li>axios</li>
-<li>sass</li>
+<li>axios(for fetching and posting)</li>
+<li>sass(styles)</li>
 <li></li>
 </ul>
 
 <h3 align="left">Instruction:</h3>
 
 <p>#npm start: Runs the app in the development mode. Open http://localhost:3000 to view it in the browser</p>
+<p>npm install: install all required dependencies in your local machine</p>
 <p>#npm test: Launches the test runner in the interactive watch mode</p>
 <p>#npm run build: Builds the app for production to the #build folder</p>
 
