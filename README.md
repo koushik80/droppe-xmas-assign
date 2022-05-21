@@ -27,14 +27,14 @@
 </li>
 <li>The user should get a discount if there are identical products on different childrens carts and the user approves these wishes
 </li>
-<li align="center">2 identical products chosen => 20% reduction for the sum of those two items</li>
-<li align="center">3 identical products chosen => 30% reduction … and so on—these reduction rules are to be saved and handled on the client, the API doesn’t support this
+<li>    -2 identical products chosen => 20% reduction for the sum of those two items</li>
+<li>    -3 identical products chosen => 30% reduction … and so on—these reduction rules are to be saved and handled on the client, the API doesn’t support this
 </li>
 <li>When the user has made the final choices of approving certain products, these choices should be pushed to the API. Save both approved and discarded carts per child to the API
 </li>
 <li>The user should see a final confirmation screen with an easy overview of the new data saved on the API—aggregated approved cart with possible relating savings as well as an aggregate disregarded cart overview
 </li>
-<li align="center">Keep in mind the different criteria for optimisation depending on user personas
+<li>   -Keep in mind the different criteria for optimisation depending on user personas
 </li>
 </ul>
 <h3 align="left">Technologies:</h3>
@@ -68,7 +68,7 @@
 <li><a href="https://fullstackopen.com/en/">Deep Dive into Modern Web Development</a></li>
 <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
 <li><a href="https://unsplash.com/">Unsplash</a></li>
-<li><a href=" https://fakestoreapi.com/">Fake Production API</a></li>
+<li><a href="https://fakestoreapi.com/">Fake Production API</a></li>
 </ul>
 
 <h3 align="left">LICENSE:</h3>
