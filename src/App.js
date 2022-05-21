@@ -6,7 +6,6 @@ import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import ConfirmationPage from './components/ConfirmationPage';
 import SocialFollow from './SocialFollow';
-import logo from './logo.png';
 import './App.css';
 
 
@@ -21,6 +20,7 @@ const App = () => {
         <Route path="wishlist/:userid/:name" exact element={<Wishlist />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
+      <SocialFollow />
     </div>
   );
 };

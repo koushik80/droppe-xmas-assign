@@ -1,9 +1,29 @@
-import React from 'react'
-
+import React from 'react';
+import logo from './logo.png';
+import '../App.css';
+import CartImage from '../images/cart-svgrepo-com.svg';
+import { Link } from 'react-router-dom';
+import '../styles/nav.scss';
 const Nav = () => {
   return (
-    <div>Nav</div>
-  )
+    <div className="nav">
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <div className="nav-logo">
+          <div><img src={logo} className="App-logo" alt="logo" /></div>
+          <div className="wrapper">
+            <h1>Droppe Xmas</h1>
+            </div>
+        </div>
+      </Link>
+
+      <Link to="/cart" style={{ textDecoration: "none" }}>
+        <div className="nav-cart">
+          <p>Your Cart</p>
+          <img src={CartImage} alt="" />
+        </div>
+      </Link>
+    </div>
+  );
 }
 
 export default Nav
