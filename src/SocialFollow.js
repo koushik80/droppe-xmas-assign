@@ -4,7 +4,7 @@ import { faYoutube, faFacebook, faTwitter, faGithub, faLinkedin, faSkype } from 
 import './App.css';
 import logo from './logo.png';
 
-export default function SocialFollow() {
+const SocialFollow = () => {
   return (
     <div className="social-container">
       <h3>Get-in-touch</h3>
@@ -27,9 +27,11 @@ export default function SocialFollow() {
       <a href="https://www.skype.com/en/" className="skype social">
           <FontAwesomeIcon icon={faSkype} size="2x" />
       </a>
-      <div className="power-text"><p>Powered by koushik@devHuß</p>
+      <div className="power-text"><p>Made by koushik@devHuß</p>
         <div><img src={logo} className="App-logo" alt="logo" /></div>
       </div>
     </div>
   );
 }
+
+export default SocialFollow

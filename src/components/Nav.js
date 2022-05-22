@@ -18,7 +18,7 @@ const Nav = () => {
 
       <Link to="/cart" style={{ textDecoration: "none" }}>
         <div className="nav-cart">
-          <p>Your Cart</p>
+          <p>My Cart</p>
           <img src={CartImage} alt="" />
         </div>
       </Link>

@@ -8,7 +8,6 @@
   border-radius: 50%;
   padding: 12px 5px;
   margin-top: 28px;
-
   position: absolute;
   top: 148px;
   right: 739px;
@@ -19,24 +18,9 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    font-size: 20px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 6vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

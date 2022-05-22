@@ -27,13 +27,13 @@
             margin-right: 10px;
         }
         img{
-            width: 40px;
+            width: 25px;
         }
     }
     &-cart:hover{
         transform: scale(1.2);
         p{
-            color: #A42626;
+            color: #1CA7EC;
         }
     }
     @media (max-width:600px) {
@@ -44,7 +44,7 @@
                 margin-right: 10px;
             }
             img{
-                width: 24px;
+                width: 20px;
             }
         }
     }
