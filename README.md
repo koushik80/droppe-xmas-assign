@@ -27,14 +27,14 @@
 </li>
 <li>The user should get a discount if there are identical products on different childrens carts and the user approves these wishes
 </li>
-<li>    -2 identical products chosen => 20% reduction for the sum of those two items</li>
-<li>    -3 identical products chosen => 30% reduction … and so on—these reduction rules are to be saved and handled on the client, the API doesn’t support this
+<li>    ** 2 identical products chosen => 20% reduction for the sum of those two items</li>
+<li>    ** 3 identical products chosen => 30% reduction … and so on—these reduction rules are to be saved and handled on the client, the API doesn’t support this
 </li>
 <li>When the user has made the final choices of approving certain products, these choices should be pushed to the API. Save both approved and discarded carts per child to the API
 </li>
 <li>The user should see a final confirmation screen with an easy overview of the new data saved on the API—aggregated approved cart with possible relating savings as well as an aggregate disregarded cart overview
 </li>
-<li>   -Keep in mind the different criteria for optimisation depending on user personas
+<li>   ** Keep in mind the different criteria for optimisation depending on user personas
 </li>
 </ul>
 <h3 align="left">Technologies:</h3>
@@ -48,13 +48,12 @@
 <li>@fortawesome/free-brands-svg-icons</li>
 <li>axios(for fetching and posting)</li>
 <li>sass(styles)</li>
-<li></li>
 </ul>
 
 <h3 align="left">Instruction:</h3>
 
 <p>#npm start: Runs the app in the development mode. Open http://localhost:3000 to view it in the browser</p>
-<p>npm install: install all required dependencies in your local machine</p>
+<p>npm install: install all required dependencies in your local machine<p>
 <p>#npm test: Launches the test runner in the interactive watch mode</p>
 <p>#npm run build: Builds the app for production to the #build folder</p>
 
@@ -62,13 +61,11 @@
 <ul>
 <li>Node: 16.13.2</li>
 <li>NPM: 8.1.2</li>
-<li></li
 </ul>
 <h3 align="left">References:</h3>
 <ul>
 <li><a href="https://fullstackopen.com/en/">Deep Dive into Modern Web Development</a></li>
 <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
-<li><a href="https://unsplash.com/">Unsplash</a></li>
 <li><a href="https://fakestoreapi.com/">Fake Production API</a></li>
 </ul>
 

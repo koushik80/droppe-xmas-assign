@@ -4,6 +4,7 @@ import { faYoutube, faFacebook, faTwitter, faGithub, faLinkedin, faSkype } from 
 import './App.css';
 import logo from './logo.png';
 
+
 const SocialFollow = () => {
   return (
     <div className="social-container">
@@ -29,7 +30,7 @@ const SocialFollow = () => {
       </a>
       <div className="power-text"><p>Made by Koushik @ devHuß</p>
         <div><img src={logo} className="App-logo" alt="logo" /></div>
-      </div>
+        </div>
     </div>
   );
 }
