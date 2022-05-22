@@ -5,7 +5,7 @@
   padding: 12px 5px;
   margin-top: 28px;
   position: absolute;
-  top: 578px;
+  top: 1013px;
   right: 745px;
   justify-content: space-between;
   display: flex;
@@ -26,58 +26,3 @@
   }
 }
 
-/*Social media@start*/
-.social-container {
-  background-color: white;
-  padding: 25px 50px;
-  text-align: center;
-}
-.social-container, h3 {
-color: #9B9B9B;
-font-weight: bold;
-margin: 10px 10px;
-text-align: center;
-
-}
-.power-text {
-  color: #3C4CAD;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: 12px;
-}
-a.social {
-  margin: 0 1rem;
-  transition: transform 250ms;
-  display: inline-block;
-  font-size: 12px;
-  width: 15px;
-  height: 38px;
-}
-
-a.social:hover {
-  transform: translateY(-2px);
-
-}
-a.youtube {
-  color: #eb3223;
-}
-
-a.facebook {
-  color: #4968ad;
-}
-
-a.twitter {
-  color: #49a1eb;
-}
-
-a.github {
-  color: black;
-}
-a.linkedin {
-  color: #49a1eb;
-}
-a.skype {
-  color: #49a1eb;
-}
-/*Social media@end*/

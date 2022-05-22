@@ -2,14 +2,17 @@
   margin-top: 50px;
   h2 {
     color: #f78ea4;
+    margin-top: 50px;
+    font-size: 45px;
   }
 }
-
+.announceMessage{
+  margin-top: 5px;
+}
 .wishlistCards {
   display: flex;
-
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 @media (max-width: 600px) {
   .wishlistCards {
@@ -17,3 +20,63 @@
     justify-content: center;
   }
 }
+
+/*Social media@start*/
+.social-container {
+  background-color: white;
+  padding: 25px 50px;
+  text-align: center;
+}
+.social-container, h3 {
+color: #9B9B9B;
+font-weight: bold;
+margin: 10px 10px;
+text-align: center;
+
+}
+.power-text {
+  color: #3C4CAD;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  font-size: 12px;
+  width: 15px;
+  height: 38px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.github {
+  color: black;
+}
+a.linkedin {
+  color: #49a1eb;
+}
+a.skype {
+  color: #49a1eb;
+}
+
+.socialConnect{
+  margin-top: 310px;
+}
+/*Social media@end*/

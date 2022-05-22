@@ -22,7 +22,6 @@ const App = () => {
         <Route path="wishlist/:userid/:name" exact element={<Wishlist />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
-      <div><SocialFollow /></div>
     </div>
   );
 };

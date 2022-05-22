@@ -2,12 +2,15 @@ import React from 'react';
 import ChildCard from './ChildCard';
 import '../styles/home.scss';
 import { Link } from 'react-router-dom';
+import Announcement from './Announcement';
+import SocialFollow from '../SocialFollow';
 
 const Home = () => {
   return (
    <>
       <div className="homeTitle">
-        <h2>Childrens' Wishlists</h2>
+        <div className="announceMessage"><Announcement /></div>
+        <div><h2>Childrens' Wishlists</h2></div>
       </div>
       <div className="wishlistCards">
         <Link to="wishlist/1/Henrik" style={{ textDecoration: "none" }}>
@@ -26,6 +29,7 @@ const Home = () => {
           <ChildCard name={"David"} gender={"male"} />
         </Link>
       </div>
+      <div className="socialConnect"><SocialFollow /></div>
     </>
   );
 }
