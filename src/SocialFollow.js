@@ -27,7 +27,7 @@ const SocialFollow = () => {
       <a href="https://www.skype.com/en/" className="skype social">
           <FontAwesomeIcon icon={faSkype} size="2x" />
       </a>
-      <div className="power-text"><p>Made by koushik@devHuß</p>
+      <div className="power-text"><p>Made by Koushik @ devHuß</p>
         <div><img src={logo} className="App-logo" alt="logo" /></div>
       </div>
     </div>

@@ -10,8 +10,8 @@ const Home = () => {
         <h2>Childrens' Wishlists</h2>
       </div>
       <div className="wishlistCards">
-        <Link to="wishlist/1/John" style={{ textDecoration: "none" }}>
-          <ChildCard name={"John"} gender={"male"} />
+        <Link to="wishlist/1/Henrik" style={{ textDecoration: "none" }}>
+          <ChildCard name={"Henrik"} gender={"male"} />
         </Link>
         <Link to="wishlist/2/Jennifer" style={{ textDecoration: "none" }}>
           <ChildCard name={"Jennifer"} gender={"female"} />

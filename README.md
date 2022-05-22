@@ -1,6 +1,6 @@
 # Hi there👋! Here goes below my assignment information
 
-<div align="center"><a href="########">devHuß@Droppe-xmas</a></div>
+<div align="center"><a href="https://droppe-xmas-koushik.netlify.app/">devHuß@Droppe-xmas</a></div>
 <h1 align="center">Pre-assignment</h1>
 <h1 align="center">Table of Content</h1>
 

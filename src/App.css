@@ -3,14 +3,14 @@
 }
 
 .App-logo {
-  height: 3vmin;
+  height: 2vmin;
   pointer-events: none;
   border-radius: 50%;
   padding: 12px 5px;
   margin-top: 28px;
   position: absolute;
-  top: 148px;
-  right: 739px;
+  top: 532px;
+  right: 753px;
   justify-content: space-between;
   display: flex;
 }
@@ -32,12 +32,12 @@
 
 /*Social media@start*/
 .social-container {
-  background-color: #f9f9f9;
+  background-color: #FFFFFF;
   padding: 25px 50px;
   text-align: center;
 }
 .social-container, h3 {
-color: #B6B6B6;
+color: #9B9B9B;
 font-weight: bold;
 margin: 10px 10px;
 text-align: center;
