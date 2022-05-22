@@ -7,6 +7,7 @@ import Wishlist from './components/Wishlist';
 import ConfirmationPage from './components/ConfirmationPage';
 import SocialFollow from './SocialFollow';
 import './App.css';
+import Announcement from './components/Announcement';
 
 
 const App = () => {
@@ -15,12 +16,13 @@ const App = () => {
     <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="announcement" element={<Announcement />} />
         <Route path="cart" element={<Cart />} />
         <Route path="confirmationPage" element={<ConfirmationPage />} />
         <Route path="wishlist/:userid/:name" exact element={<Wishlist />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
-      <SocialFollow />
+      <div><SocialFollow /></div>
     </div>
   );
 };
