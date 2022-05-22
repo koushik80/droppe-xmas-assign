@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faFacebook, faTwitter, faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 import './App.css';
-import logo from './logo.png';
+
 
 
 const SocialFollow = () => {
@@ -29,8 +29,7 @@ const SocialFollow = () => {
           <FontAwesomeIcon icon={faSkype} size="2x" />
       </a>
       <div className="power-text"><p>Made by Koushik @ devHuß</p>
-        <div><img src={logo} className="App-logo" alt="logo" /></div>
-        </div>
+      </div>
     </div>
   );
 }

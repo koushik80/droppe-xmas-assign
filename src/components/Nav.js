@@ -9,7 +9,6 @@ const Nav = () => {
     <div className="nav">
       <Link to="/" style={{ textDecoration: "none" }}>
         <div className="nav-logo">
-          <div><img src={logo} className="App-logo" alt="logo" /></div>
           <div className="wrapper">
             <h1>Droppe Xmas</h1>
             </div>
@@ -21,6 +20,7 @@ const Nav = () => {
           <p>My Cart</p>
           <img src={CartImage} alt="" />
         </div>
+        <div><img src={logo} className="App-logo" alt="logo" /></div>
       </Link>
     </div>
   );

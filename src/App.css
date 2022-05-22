@@ -1,12 +1,12 @@
 .App-logo {
-  height: 5vmin;
+  height: 6vmin;
   pointer-events: none;
   border-radius: 50%;
   padding: 12px 5px;
   margin-top: 28px;
   position: absolute;
-  top: 1013px;
-  right: 745px;
+  top: 14px;
+  right: 115px;
   justify-content: space-between;
   display: flex;
 }
@@ -25,4 +25,3 @@
     transform: rotate(360deg);
   }
 }
-
