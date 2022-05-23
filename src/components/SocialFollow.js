@@ -22,7 +22,6 @@ const SocialFollow = () => {
       <a href="https://www.linkedin.com/" className="linkedin social">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-
       <a href="https://www.skype.com/en/" className="skype social">
           <FontAwesomeIcon icon={faSkype} size="2x" />
       </a>
