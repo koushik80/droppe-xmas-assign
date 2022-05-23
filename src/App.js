@@ -16,10 +16,10 @@ const App = () => {
     <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="announcement" element={<Announcement />} />
         <Route path="cart" element={<Cart />} />
         <Route path="confirmationPage" element={<ConfirmationPage />} />
         <Route path="wishlist/:userid/:name" exact element={<Wishlist />} />
+        <Route path="announcement" element={<Announcement />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
       <div className="socialConnect"><SocialFollow /></div>

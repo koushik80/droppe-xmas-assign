@@ -8,8 +8,8 @@
   font-size: 14px;
   font-weight: 800;
   border-radius: 5px;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-             glow 2500ms linear infinite 2000ms;
+  animation: reveal 800ms ease-in-out forwards 20ms,                          
+             glow 1800ms linear infinite 200ms;
 }
 
 @keyframes reveal {
