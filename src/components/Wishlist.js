@@ -58,6 +58,7 @@ const Wishlist = () => {
   useEffect(() => {
     fetchCart();
     fetchSavedCart();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
