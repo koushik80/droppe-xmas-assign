@@ -7,7 +7,8 @@
 <p>Title</p>
 <p>Description</p>
 <p>User stories</p>
-<p>Technologies</p>
+<p>Limitations</p>
+<p>Recommend Technologies</p>
 <p>Instruction</p>
 <P>Prerequisites</p>
 <p>References</p>
@@ -37,7 +38,10 @@
 <li>   ** Keep in mind the different criteria for optimisation depending on user personas
 </li>
 </ul>
-<h3 align="left">Technologies:</h3>
+<h3 align="left">Limitations: </h3>
+<p>The interface is highly usable, aesthetic, and designed user-first without using any external UI library or CSS framework.
+</p>
+<h3 align="left">Recommend Technologies:</h3>
 <ul>
 <li>Visual Studio Code</li>
 <li>React</li>
@@ -48,6 +52,7 @@
 <li>@fortawesome/free-brands-svg-icons</li>
 <li>axios(for fetching and posting)</li>
 <li>sass(styles)</li>
+<li>Material UI(not recommend)</>
 </ul>
 
 <h3 align="left">Instruction:</h3>
