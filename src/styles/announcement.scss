@@ -1,12 +1,13 @@
 .announcement {
-  height: 30px;
-  background-color: #A8DEE0;
-  color: white;
+  height: 40px;
+  background-color: #85CBCC;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 800;
+  border-radius: 5px;
   animation: reveal 3000ms ease-in-out forwards 200ms,
              glow 2500ms linear infinite 2000ms;
 }
@@ -21,6 +22,6 @@
   }
   @keyframes glow {
     40% {
-      text-shadow: 0 0 8px #fff;
+      text-shadow: 0 0 8px #FB7B8E;
     }
   }
