@@ -47,11 +47,10 @@
 <li>React</li>
 <li>React-dom</li>
 <li>React-hook</li>
-<li>React-router-dom(for page navigation)</li>
-<li>@fortawesome/react-fontawesome</li>
-<li>@fortawesome/free-brands-svg-icons</li>
-<li>axios(for fetching and posting)</li>
+<li>React-router-dom(page navigation)</li>
 <li>Sass(styles)</li>
+<li>Font Awesome(not recommend)</li>
+<li>axios(fetching and posting)</li>
 <li>Material UI(not recommend)</>
 </ul>
 
