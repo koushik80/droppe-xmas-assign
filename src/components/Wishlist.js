@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import WishlistCard from './WishlistCard';
 import '../styles/wishlist.scss';
 import axios from 'axios';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const Wishlist = () => {
   const navigate = useNavigate();
@@ -68,7 +69,7 @@ const Wishlist = () => {
       </div>
       <div className="wishlists">
         {cart.length === 0 ? (
-          <p className="loading">Loading......</p>
+          <p className="loading"><CircularProgress /></p>
         ) : (
           <div className="wishlists">
             {cart.map((data) => (
