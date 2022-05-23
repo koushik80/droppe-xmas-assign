@@ -1,9 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube, faFacebook, faTwitter, faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
-import './App.css';
-
-
+import { faYoutube, faFacebook, faTwitter, faWhatsapp, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
+import '../App.css';
 
 const SocialFollow = () => {
   return (
@@ -18,8 +16,8 @@ const SocialFollow = () => {
         <a href="https://www.twitter.com/" className="twitter social">
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
-        <a href="www.github.com" className="github social">
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+        <a href="https://web.whatsapp.com/" className="whatsapp social">
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" />
       </a>
       <a href="https://www.linkedin.com/" className="linkedin social">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />

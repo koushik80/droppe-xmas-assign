@@ -3,7 +3,6 @@ import ChildCard from './ChildCard';
 import '../styles/home.scss';
 import { Link } from 'react-router-dom';
 import Announcement from './Announcement';
-import SocialFollow from '../SocialFollow';
 
 const Home = () => {
   return (
@@ -29,7 +28,6 @@ const Home = () => {
           <ChildCard name={"David"} gender={"male"} />
         </Link>
       </div>
-      <div className="socialConnect"><SocialFollow /></div>
     </>
   );
 }

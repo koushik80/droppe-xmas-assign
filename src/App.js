@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import ConfirmationPage from './components/ConfirmationPage';
-import SocialFollow from './SocialFollow';
+import SocialFollow from './components/SocialFollow';
 import './App.css';
 import Announcement from './components/Announcement';
 
@@ -22,6 +22,7 @@ const App = () => {
         <Route path="wishlist/:userid/:name" exact element={<Wishlist />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
+      <div className="socialConnect"><SocialFollow /></div>
     </div>
   );
 };
