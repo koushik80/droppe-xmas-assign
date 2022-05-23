@@ -114,3 +114,4 @@ const WishlistCard = ({
   );
 }
 export default WishlistCard
+

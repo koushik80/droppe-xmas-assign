@@ -11,7 +11,7 @@ const Nav = () => {
         <div className="nav-logo">
           <div className="wrapper">
             <h1>Droppe Xmas</h1>
-            </div>
+	        </div>
         </div>
       </Link>
 
