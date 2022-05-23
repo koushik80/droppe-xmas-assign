@@ -17,7 +17,6 @@ const Wishlist = () => {
     if (savedData === null) {
       savedData = [];
     }
-
     selectedProduct.forEach((value) => {
       savedData.push(value);
     });
@@ -69,7 +68,11 @@ const Wishlist = () => {
       </div>
       <div className="wishlists">
         {cart.length === 0 ? (
-          <p className="loading"><CircularProgress /></p>
+          <p className="loading">
+          <CircularProgress color="secondary" />
+          <CircularProgress color="success" />
+          <CircularProgress color="inherit" />
+          </p>
         ) : (
           <div className="wishlists">
             {cart.map((data) => (

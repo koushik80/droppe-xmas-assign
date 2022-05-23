@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import '../styles/wishlist.scss';
 import axios from 'axios';
 
-export default function WishlistCard({
+const WishlistCard = ({
   productId,
   selectedProduct,
   setSelectedProduct,
   hidebutton,
   previouslySavedCart,
   setPrevouslySavedCart,
-}) {
+}) => {
   const [productData, setProductData] = useState({});
   const [selected, setSelected] = useState(false);
   const [discount, setDiscount] = useState(0);
@@ -113,3 +113,4 @@ export default function WishlistCard({
     </div>
   );
 }
+export default WishlistCard
