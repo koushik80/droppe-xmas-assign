@@ -1,6 +1,6 @@
 # Hi there👋! Here goes below my assignment information
 
-<div align="center"><a href="https://droppe-xmas-koushik.netlify.app/">Droppe-xmas@devHuß</a></div>
+<div align="center"><a href="https://droppe-xmas-koushik.netlify.app/">Droppe-xmas@koushik-devHuß</a></div>
 <h1 align="center">Droppe Xmas :christmas_tree:</h1>
 <h1 align="center">Table of Content</h1>
 
@@ -41,7 +41,7 @@
 <h3 align="left">Limitations: </h3>
 <p>The interface is highly usable, aesthetic, and designed user-first without using any external UI library or CSS framework.
 </p>
-<h3 align="left">Technologies: </h3>
+<h3 align="left">Technologies: :computer:</h3>
 <ul>
 <li>Visual Studio Code</li>
 <li>React</li>
