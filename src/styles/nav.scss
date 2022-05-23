@@ -5,6 +5,12 @@
     &-logo{
         cursor: pointer;
     }
+    .nav-cart{
+        p {
+            color: #47CACC;
+        }
+
+    }
     @media (max-width:600px) {
 
         &-logo{
@@ -40,7 +46,7 @@
     &-cart:hover{
         transform: scale(1.2);
         p{
-            color: #1CA7EC;
+            color: #C73866;
         }
     }
     @media (max-width:600px) {
