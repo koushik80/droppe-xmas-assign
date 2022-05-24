@@ -67,7 +67,7 @@ const Wishlist = () => {
       </div>
       <div className="wishlists">
         {cart.length === 0 ? (
-          <p className="loading"></p>
+          <p className="load"></p>
         ) : (
           <div className="wishlists">
             {cart.map((data) => (
