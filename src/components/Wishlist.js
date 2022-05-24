@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import WishlistCard from './WishlistCard';
 import '../styles/wishlist.scss';
 import axios from 'axios';
-import CircularProgress from '@mui/material/CircularProgress';
 
 const Wishlist = () => {
   const navigate = useNavigate();
@@ -69,9 +68,7 @@ const Wishlist = () => {
       <div className="wishlists">
         {cart.length === 0 ? (
           <p className="loading">
-          <CircularProgress color="secondary" />
-          <CircularProgress color="success" />
-          <CircularProgress color="inherit" />
+          <div className="load"></div>
           </p>
         ) : (
           <div className="wishlists">

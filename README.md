@@ -51,7 +51,6 @@
 <li>Sass(styles)</li>
 <li>Font Awesome(not recommend)</li>
 <li>axios(fetching and posting)</li>
-<li>Material UI(not recommend)</>
 </ul>
 
 <h3 align="left">Instruction: </h3>

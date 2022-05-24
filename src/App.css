@@ -31,6 +31,9 @@
   background-color: #fafafa;
   padding: 25px 50px;
   text-align: center;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
 }
 .social-container, h3 {
 color: #47CACC;
