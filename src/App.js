@@ -22,7 +22,7 @@ const App = () => {
         <Route path="announcement" element={<Announcement />} />
         <Route path="socialFollow" element={<SocialFollow />} />
       </Routes>
-      <div className="socialConnect"><SocialFollow /></div>
+     <div className="socialConnect"><SocialFollow /></div>
     </div>
   );
 };
