@@ -6,9 +6,9 @@ import Announcement from './Announcement';
 
 const Home = () => {
   return (
-   <>
+    <>
+      <div className="announceMessage"><Announcement /></div>
       <div className="homeTitle">
-        <div className="announceMessage"><Announcement /></div>
         <div><h2>Childrens' Wishlists</h2></div>
       </div>
       <div className="wishlistCards">
