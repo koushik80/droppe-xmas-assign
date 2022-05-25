@@ -6,7 +6,8 @@ import '../styles/childCard.scss';
 const ChildCard = ({ name ,gender }) => {
   return (
     <div className="childCard">
-      {gender==="male"?   <img src={boyImage} alt="" />:<img src={girlImage} alt="" />}
+      {gender === "male" ? <img src={boyImage} alt="" />
+                         : <img src={girlImage} alt="" />}
 
       <h3>{name}'s Wishlist</h3>
     </div>
