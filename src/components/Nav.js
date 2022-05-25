@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.png';
-import '../App.css';
+import '../App.scss';
 import CartImage from '../images/cart-svgrepo-com.svg';
 import { Link } from 'react-router-dom';
 import '../styles/nav.scss';

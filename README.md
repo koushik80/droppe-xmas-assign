@@ -49,8 +49,9 @@
 <li>React-hook</li>
 <li>React-router-dom(page navigation)</li>
 <li>Sass(styles)</li>
-<li>Font Awesome(not recommend)</li>
 <li>axios(fetching and posting)</li>
+<li>Font Awesome(not recommend)</li>
+
 </ul>
 
 <h3 align="left">Instruction: </h3>

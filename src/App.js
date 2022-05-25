@@ -6,7 +6,7 @@ import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import ConfirmationPage from './components/ConfirmationPage';
 import SocialFollow from './components/SocialFollow';
-import './App.css';
+import './App.scss';
 import Announcement from './components/Announcement';
 
 
