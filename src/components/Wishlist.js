@@ -88,7 +88,6 @@ const Wishlist = () => {
         <div className="greenBtn" onClick={saveCart}>
           Confirm
         </div>
-
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="gobackbtn">Go Back</div>
         </Link>

@@ -88,12 +88,10 @@ const WishlistCard = ({
           <h2 className="wishlistCard-price-discount">
             ${productData.price}
           </h2>
-
         </div>
       ) : (
         <h2 className="wishlistCard-price">${productData.price}</h2>
       )}
-
       {!hidebutton ? (
         <div className="wishlistCard-btnPos">
           <div></div>
@@ -102,9 +100,9 @@ const WishlistCard = ({
               <p>Add to Cart</p>
             </div>
           ) : (
-            <div className="wishlistCard-btn-red" onClick={removeFromCart}>
-              <p>Remove From Cart</p>
-            </div>
+              <div className="wishlistCard-btn-red" onClick={removeFromCart}>
+                <p>Remove From Cart</p>
+              </div>
           )}
         </div>
       ) : (
