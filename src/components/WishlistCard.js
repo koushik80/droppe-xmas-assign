@@ -43,7 +43,7 @@ const WishlistCard = ({
   const addToCart = () => {
     setSelected(true);
     let temp_data=productData;
-    temp_data.price=productData.price*(1-discount/100);
+    temp_data.price=productData.price*(1 - discount / 100);
     setSelectedProduct((prev) => [...prev, temp_data]);
     // let temp = previouslySavedCart;
     // let changesDone = false;
