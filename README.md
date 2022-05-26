@@ -18,7 +18,7 @@
 
 <h3 align="left">Description: </h3>
 
-<p>The app is created to submit as pre-assignment. The implementation strives to be simple. The application is composed of the following features:</p>
+<p>The app is created to submit as pre-assignment. The implementation strives to be simple. The application is composed as follows:</p>
 
 <h3 align="left">User stories: </h3>
 <ul>
