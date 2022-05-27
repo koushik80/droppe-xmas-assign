@@ -7,6 +7,7 @@ const SocialFollow = () => {
   return (
     <div className="social-container">
       <h3>Get-in-touch</h3>
+      <div className="social-icons">
         <a href="https://www.youtube.com/" className="youtube social">
           <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
@@ -18,14 +19,15 @@ const SocialFollow = () => {
         </a>
         <a href="https://web.whatsapp.com/" className="whatsapp social">
           <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-      </a>
+        </a>
       <a href="https://www.linkedin.com/" className="linkedin social">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a href="https://www.skype.com/en/" className="skype social">
           <FontAwesomeIcon icon={faSkype} size="2x" />
-      </a>
-      <div className="power-text"><p>Developed by koushik@devHuß</p>
+        </a>
+      </div>
+       <div className="power-text"><p>Developed by koushik@devHuß</p>
       </div>
     </div>
   );

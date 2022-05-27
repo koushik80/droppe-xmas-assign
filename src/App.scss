@@ -36,11 +36,16 @@
   width: 100%;
 }
 .social-container, h3 {
-color: #47CACC;
-font-weight: bold;
-margin: 10px 10px;
-text-align: center;
-
+  color: #47CACC;
+  font-weight: bold;
+  margin: 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .power-text {
   color: #35BBCA;
